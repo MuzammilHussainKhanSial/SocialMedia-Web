@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
@@ -50,6 +51,16 @@ const App = () => {
         </Routes>
       </Layout>
     </BrowserRouter>
+=======
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+const App = () => {
+  return (
+      <Routes>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+>>>>>>> adb1332e61d3eb4a4cdbda49b1ec6ab6d213952e
   );
 };
 

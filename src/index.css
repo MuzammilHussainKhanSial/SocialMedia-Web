@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Play:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+>>>>>>> adb1332e61d3eb4a4cdbda49b1ec6ab6d213952e
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @font-face {
   font-family: "Plus Jakarta Sans", sans-serif;
   src: url("./Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
@@ -101,4 +108,62 @@ body{
   border-radius: 10px;
   border: 2px solid #2f65b9;
 }
+=======
+
+.plus{
+  font-family: "Plus Jakarta Sans", sans-serif ;
+}
+
+body{
+  background-color: #f8f9fa;
+} 
+
+.slick-prev:before{
+  position: absolute ;
+  bottom: 0;
+  
+ 
+}
+
+.slick-next:before{
+  position: absolute ;
+  bottom: 0;
+  left: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background-color: black ;
+  border-radius: 50%;
+ 
+
+}
+
+
+  h1 {
+    @apply text-xl font-medium capitalize;
+  }
+
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium;
+}
+
+.active {
+  
+}
+
+
+.slick-slide {
+  padding: 0 10px; /* Adjust padding to create the desired gap */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Compensate for the padding added to the slides */
+}
+
+>>>>>>> adb1332e61d3eb4a4cdbda49b1ec6ab6d213952e
 
